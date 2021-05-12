@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  background-color: rgb(240,240,240);
+  margin: 5%;
+}
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #0C9AF2;
+  font-weight: 800;
+}
+h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #0C9AF2;
+  font-weight: 500;
+}
+
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:rgba(0, 0, 0, 0.90);
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.card {
+  margin-top: 50px;
+  width: 50% ;
+  margin: 16px auto;
+  border-radius: 3%;
+  background-color: rgb(210,210,210);
+  box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+  padding: 5%;
+}
+  
+
+li{
+  display: inline;
+  list-style: none;
+  margin: 16px;
+  margin-left: 5px;
+}
+
+.fab{
+  font-size: 32px;
+  color: #0C9AF2;
+  margin-left: 5px;
+  
+}
+
+.fab:hover{
+  opacity: 0.5;
+}
+
+ul{
+  margin-right: 32px;
+}
+
+.btn-bleu{
+  text-decoration: none;
+  background-color: #0C9AF2;
+  box-shadow: rgba(37, 0, 247, 0.15) 0px 48px 100px 0px;
+  border-radius: 10%;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: azure;
+
+  
+}
+.btn-bleu:hover{
+  background-color: rgba(210,210,210, 0.3);
+  color: #0C9AF2;
+ 
+}
+.container{
+  width:  700px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
